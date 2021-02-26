@@ -1,14 +1,8 @@
 # Site settings
 markdown: kramdown
 permalink: pretty
-lsi: false
-safe: true
-source: /
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://qrl.tips" # the base hostname & protocol for your site
-
-#include: [, ]
-
 
 ################
 # Meta content #
