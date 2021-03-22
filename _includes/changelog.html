@@ -13,7 +13,32 @@
       <div class="container">
         <div class="">
 
-
+        <!--v1.0.5 changes-->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Tipbot V1.0.5 Changelog</h3>
+          </div>
+          <div class="panel-body">
+            <div class="clearfix">
+                <h2 class="pull-left"><a href="">V1.0.5</a></h2>
+            </div>
+              <p>Bug fixes and refinements</p>
+            <div class="clearfix">
+              <h5 class="pull-left">Bug Fixes</h5>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Delete withdraw address</strong> - Delete +withdraw message with user address before response in withdraw function.</li>
+              <li class="list-group-item"><strong>database withdraw entries</strong> - Reformat amount of quanta for database insert for withdraw database.</li>
+              <li class="list-group-item"><strong>Change Date of first drip</strong> - Changed the date of the first drip to 1970.</li>
+              <li class="list-group-item"><strong>Allow faucet drip after signiup</strong> - Add date for new user faucet drip to 1970-01-01 and don't give faucet if opt-out = true. Allowing users to pull from the faucet after they have signed up based on actual user flow.</li>
+              <li class="list-group-item"><strong>Dsiscord Helpers</strong> - Adding discord-helpers for functions shared across discord scripts.</li>
+              <li class="list-group-item"><strong>Add user message after +add</strong> - Adding message that user account is being setup and to please wait</li>
+              <li class="list-group-item"><strong>Time till next drip from the faucet</strong> - When attempting to pull a drip before timeout will now repor the next time you can return</li>
+              <li class="list-group-item"><strong>Change withdraw help</strong> - Change the help message for withdraw to be consistent.</li>
+            </ul>
+            </div>
+            <div class="panel-footer">Code hosted on Github @ <a href="https://github.com/theqrl-community/tipbot">The QRL Community</a></div>
+          </div>
 
         <!--v1.0.4 changes-->
         <div class="panel panel-default">
