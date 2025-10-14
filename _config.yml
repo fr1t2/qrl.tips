@@ -15,14 +15,14 @@ author: fr1t2
 author-url: https://fr1t2/com
 twitter_username: just_a_warning
 # Site description for the <head>
-description: Tipbot for the QRL project. Join our discord channel to start tipping!
+description: Tipbot is no longer available. End of life was announced and funds must be removed from the bot
 site-keywords: QRL, Quantum Resistant Ledger, Tipbot, tips, faucet, cryptocurrency
 discord-link: https://discord.gg/eUkymqbZe4
 # Site email
 email: info@qrl.tips
 
 # Paragraph in the main content section
-hero-slug: On-Chain QRL tipbot and faucet linked to the QRL Discord commuity chat. Sign up an account today to start tipping.
+hero-slug: The TipBot is no longer accepting new users, End of life was announced and funds must be removed from the bot.
 hero-slug-link: {{site.discord-link}}
 # Image for the main header
 site-image: /img/yellow.png
